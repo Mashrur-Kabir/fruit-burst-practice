@@ -1,0 +1,22 @@
+<div class="w-[72rem] mx-auto relative bottom-24 bg-white flex justify-center gap-20 shadow-sm px-16 py-12 text">
+            <div class="text-center">
+                <img src="images/fruit1.png" alt="">
+                <p class="text-xl font-medium">Grape</p>
+            </div>
+            <div class="text-center">
+                <img src="images/fruit2.png" alt="">
+                <p class="text-xl font-medium">Orange</p>
+            </div>
+            <div class="text-center">
+                <img src="images/fruit3.png" alt="">
+                <p class="text-xl font-medium">Mango</p>
+            </div>
+            <div class="text-center">
+                <img src="images/fruit4.png" alt="">
+                <p class="text-xl font-medium">Strawberry</p>
+            </div>
+            <div class="text-center">
+                <img src="images/fruit5.png" alt="">
+                <p class="text-xl font-medium">Pomegranate</p>
+            </div>
+        </div>
