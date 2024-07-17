@@ -30,9 +30,6 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        // we can use the gradients that is frequently used here like this
-                        'gradient-s': "#FF8938",
-                        'gradient-e': "#F00",
                         'rosepink': "#F85559"
                     }
                 }
@@ -41,7 +38,7 @@
     </script>
 </head>
 
-<body class="font-lato w-11/12 mx-auto">
+<body class="font-lato">
     <!-- HEADER -->
     <header class="container mx-auto mb-16 md:mb-10 lg:mb-36">
         <!-- Nav Bar -->
@@ -208,7 +205,6 @@
     <main class="container mx-auto">
 
         <!-- Deal-of-the-day section -->
-
         <div>
             <!-- head -->
             <div
@@ -482,9 +478,10 @@
         </div>
 
         <!-- Meet-the-team section -->
-        <div class="relative mb-32">
+        <div class="relative mb-32 w-11/12 mx-auto">
             <img src="images/team.png" alt="" class="brightness-50 lg:h-auto md:h-auto h-[85rem]">
 
+            <!-- teams header -->
             <div class="absolute inset-0">
                 <div class="text-center text-white md:my-5 lg:my-10 px-7 md:px-0 mt-5 md:mt-0">
                     <h1 class="text-3xl lg:text-5xl font-extrabold mb-2 lg:mb-4 mt-10 md:mt-5 lg:mt-14">Meet the team section</h1>
@@ -495,6 +492,7 @@
                         BC, making it over 2000 years old.</p>
                 </div>
 
+                <!-- teams container -->
                 <div class="grid gap-y-12 md:grid-cols-4 text-white">
                     <!-- member-1 -->
                     <div class="flex flex-col items-center">
@@ -549,7 +547,34 @@
 
     </main>
 
-    <footer>
+    <footer class=" bg-black py-14 md:py-24 lg:py-28">
+        <!-- footer-head -->
+        <div class="flex gap-3 flex-1 justify-center">
+            <img class="w-10 md:w-12" src="images/logo.png" alt="">
+            <h3 class="text-[2rem] md:text-[2.5rem] font-bold text-white">Fruit Burst</h3>
+        </div>
+
+        <!-- nav -->
+        <div class="my-8 md:my-10 lg:my-14">
+            <ul class="flex gap-8 md:gap-14 text-white justify-center flex-wrap gap-y-3 px-5 md:px-0">
+                <li><button><a>Home</a></button></li>
+                <li><button><a>About Us</a></button></li>
+                <li><button><button><a>Shop</a></button></button></li>
+                <li><button><a>All Fruits</a></button></li>
+                <li><button><a>Support</a></button></li>
+                <li><button><a>My Account</a></button></li>
+            </ul>
+        </div>
+
+        <!-- socials -->
+        <div class="flex items-center gap-10 justify-center flex-wrap gap-y-3 px-5 md:px-0">
+            <img class="w-6 md:w-8" src="icons/twit-footer.png" alt="">
+            <img class="w-6 md:w-8" src="icons/fb-footer.png" alt="">
+            <img class="w-7 md:w-9" src="icons/yt-footer.png" alt="">
+            <img class="w-6 md:w-8" src="icons/link-footer.png" alt="">
+            <img class="w-6 md:w-8" src="icons/insta-footer.png" alt="">
+            <img class="bg-white w-6 md:w-8" src="icons/apple-footer.png" alt="">
+        </div>
 
     </footer>
 </body>
